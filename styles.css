@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "TikTok Sans";
+    color: #1b1b1b;
+    background: #dddddd;
+}
+
+.main {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 16px 16px;
+    background-color: #fff;
+    border-bottom: 1px solid #e3e1dc;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-img {
+    width: 20px;
+    height: 20px;
+}
+
+.statuses {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+    width: 100%;
+    scrollbar-width: none;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #FE2C55;
+    padding: 3px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding-block: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.post-header {
+    display: flex;
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.react-img {
+    width: 24px;
+}
